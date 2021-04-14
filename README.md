@@ -197,13 +197,13 @@ JSON Response Object:
 
 5. POST calls from React front end to Express Server with 'Search Key' data.
 
-Conclusion:
-There are many improvement considerations for this application. 
-- Error handling for various codes from Youtube Data API needs to be encorporated.
+Considerations:
+There are a few improvement considerations for this application. 
+- Error handling for various code from Youtube Data API needs to be incorporated.
 - Information displaying user search result type can be displayed for better UI/UX.
-- I wrote a few JEST tests but could not do it extensively in the given time and prioratized given requirements. Multiple test cases including data type checks need to be incorporated.
+- I wrote a few JEST tests but could not do it extensively in the given time and prioritized given requirements. Multiple test cases including data type checks need to be incorporated.
 - The pop-up iframe video could use a close button.
-.... and many more....
+.... and others
 
 Please feel free to reach out to me, if you need any more information or run into any issues while getting it up and running on your machine.
 Thank you!
