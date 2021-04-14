@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-----This .ejs file is served by express server. Navigate to src/server/server.js-->
+  
+  <!--Semantic UI CSS-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link async rel="stylesheet"  href="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.css"/>
+  <script async src="//cdn.jsdelivr.net/npm/semantic-ui@${props.versions.sui}/dist/semantic.min.js"></script>
+  <!---Semantic UI CSS-->
+
+  <title>HCA Video Library</title>
+  <script type="text/javascript">
+    window.Data = <%- JSON.stringify(Data) -%>
+  </script>
+</head>
+<body>
+  <div id="root"><%- Markup -%></div>
+  <script src="/vendor.js?version=1" charset="utf-8"></script>
+  <script src="/app.js?version=1" charset="utf-8"></script>
+</body>
+</html>
