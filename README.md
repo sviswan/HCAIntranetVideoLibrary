@@ -1,6 +1,6 @@
 # HCAIntranetVideoLibrary
 
-This is a full stack Isomorphic application built from scratch using following technologies:
+This is a full stack Isomorphic application that I built from scratch using following technologies:
 - REACT JS (Front end)
 - EXPRESS JS FRAMEWORK (Node.js) Server (Back-end)
 - Webpack Bundler
@@ -31,10 +31,12 @@ Under src/
 	- video-player.js
 
 Instructions:
-     npm install 
-     npm run dev ("dev": "nodemon --exec babel-node src/server/server.js"),
-     npm run webpack ("webpack": "webpack --watch")
-Ensure node-modules folder is generated with all dependencies from package.json. Please note that both client and server i.e dev and webpack scripts can be run simultaneously on 2 terminals to serve the application on both client and server side. The app is hosted on http://localhost:3030.
+     - npm install 
+     - npm run dev 
+       ("dev": "nodemon --exec babel-node src/server/server.js")
+     - npm run webpack 
+       ("webpack": "webpack --watch")
+Ensure node-modules folder is generated with all dependencies from package.json. Please note that both client and server i.e dev and webpack scripts can be run simultaneously on 2 terminals to serve the application on both client and server side. The app is hosted on http://localhost:3030.(port can be changed at server/server.js)
 
 
 API end points Details:
