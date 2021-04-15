@@ -199,7 +199,7 @@ JSON Response Object:
 
 Considerations:
 There are a few improvement considerations for this application. 
-- Error handling for various code from Youtube Data API needs to be incorporated.
+- Error handling for error codes from Youtube Data API needs to be incorporated.
 - Information displaying user search result type can be displayed for better UI/UX.
 - I wrote a few JEST tests but could not do it extensively in the given time and prioritized given requirements. Multiple test cases including data type checks need to be incorporated.
 - The pop-up iframe video could use a close button.
