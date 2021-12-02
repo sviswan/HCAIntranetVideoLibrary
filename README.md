@@ -1,4 +1,4 @@
-# HCAIntranetVideoLibrary
+# IntranetVideoLibrary
 
 Full stack Isomorphic application that built from scratch using technologies:
 - REACT JS (Front end)
@@ -197,7 +197,7 @@ JSON Response Object:
 
 5. POST calls from React front end to Express Server with 'Search Key' data.
 
-WIP:
+To-DO:
 - Masking access keys
 - Error handling for error codes from Youtube Data API needs to be incorporated.
 - Information displaying user search result type can be displayed for better UI/UX.
